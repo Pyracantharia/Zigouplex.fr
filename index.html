@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zigpuplex</title>
+    <style>
+        body {
+            background: repeating-linear-gradient(45deg, #ff00ff, #ff00ff 10px, #00ff00 10px, #00ff00 20px);
+            color: #ff0000;
+            font-family: "Comic Sans MS", cursive;
+            text-align: center;
+            animation: clignote 0.5s infinite alternate;
+        }
+
+        h1 {
+            font-size: 50px;
+            text-shadow: 5px 5px #00ffff;
+        }
+
+        a {
+            color: #ff00ff;
+            text-decoration: blink;
+            font-weight: bold;
+        }
+
+        img {
+            border: 10px solid #ff0000;
+            border-radius: 50%;
+            width: 150px;
+            transform: rotate(-15deg);
+        }
+
+        marquee {
+            font-size: 30px;
+            background-color: #ffff00;
+            color: #0000ff;
+            padding: 10px;
+        }
+
+        @keyframes clignote {
+            from { opacity: 1; }
+            to { opacity: 0.5; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Bienvenue sur le site trop moche</h1>
+    <marquee>Le design est une question de goût, pas de qualité !</marquee>
+    <img src="https://via.placeholder.com/150" alt="Image Placeholder">
+    <p>Vous aimez ça ? Cliquez <a href="#">ici</a> pour en voir encore plus !</p>
+    <p><b><i>LOL</i></b> 😜</p>
+</body>
+</html>
